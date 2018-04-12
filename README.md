@@ -3,25 +3,27 @@
 ```install
 $ sudo apt-get install apache2
 ```
-### Check Apache
-- [localhost](http://localhost/)
-### Restart Apache
+* ### Check Apache
+```check
+http://server_ip_address
+```
+* ### Restart Apache
 ```restart
 $ service apache2 restart
 ```
-### Change permission
+* ### Change permission
 ```change
 $ chmod -R 777 /var/www/html
 ```
 ## 2. Install MySQL
-```mysql
+```install
 $ sudo apt-get install mysql-server
 ```
-### Check MySQL
+* ### Check MySQL
 ```check
 $ mysqladmin -u root -p status
 ```
-### Restart MySQL
+* ### Restart MySQL
 ```restart
 $ sudo service mysql restart
 ```
@@ -32,11 +34,11 @@ $ sudo apt-get update
 $ sudo apt-get install php
 $ apt-get install php-pear php7.0-dev php7.0-zip php7.0-curl php7.0-gd php7.0-mysql php7.0-mcrypt php7.0-xml libapache2-mod-php7.0
 ```
-### Search module installed php
+* ### Search module installed php
 ```search
 $ apt-cache search --names-only ^php
 ```
-### Check PHP
+* ### Check PHP
 ```check
 $ php -v
 ```
@@ -50,7 +52,7 @@ $ sudo vim /var/www/html/info.php
      phpinfo();
 ?>
 ```
-#### check
+* ### check
 ```check
 http://server_ip_address/info.php
 ```
@@ -58,7 +60,7 @@ http://server_ip_address/info.php
 ```install
 $ sudo apt-get install phpmyadmin
 ```
-### Check PhpMyAdmin
+* ### Check PhpMyAdmin
 ```check
 http://server_ip_address/phpmyadmin
 ```
