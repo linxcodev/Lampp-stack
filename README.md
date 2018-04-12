@@ -25,9 +25,11 @@ apt-get install php-pear php7.0-dev php7.0-zip php7.0-curl php7.0-gd php7.0-mysq
 #### or
 - ` sudo vim /var/www/html/info.php`
 #### and add
-- ` <?php
+```
+<?php
      phpinfo();
-?>`
+?>
+```
 #### check
 - ` http://server_ip_address/info.php`
 ### 4. Install Php My Admin
