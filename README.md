@@ -24,7 +24,7 @@ apt-get install php-pear php7.0-dev php7.0-zip php7.0-curl php7.0-gd php7.0-mysq
 - ` php -v`
 #### or
 - ` sudo vim /var/www/html/info.php`
-#### add
+#### and add
 - ` <?php
      phpinfo();
 ?>`
