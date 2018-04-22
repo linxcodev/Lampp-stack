@@ -7,6 +7,10 @@ $ sudo apt-get install apache2
 ```check
 http://server_ip_address
 ```
+* #### Or
+```check
+http://localhost
+```
 * ### Restart Apache
 ```restart
 $ service apache2 restart
@@ -63,4 +67,8 @@ $ sudo apt-get install phpmyadmin
 * ### Check PhpMyAdmin
 ```check
 http://server_ip_address/phpmyadmin
+```
+* #### Or
+```check
+http://localhost/phpmyadmin
 ```
