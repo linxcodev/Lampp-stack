@@ -7,7 +7,7 @@ $ sudo apt-get install apache2
 ```check
 http://server_ip_address
 ```
-* #### Or
+#### Or
 ```check
 http://localhost
 ```
