@@ -42,7 +42,7 @@ $ apt-get install php-pear php7.0-dev php7.0-zip php7.0-curl php7.0-gd php7.0-my
 ```search
 $ apt-cache search --names-only ^php
 ```
-* ### Check PHP
+* ### Check PHP Version
 ```check
 $ php -v
 ```
@@ -56,7 +56,7 @@ $ sudo vim /var/www/html/info.php
      phpinfo();
 ?>
 ```
-* ### check
+#### and Then
 ```check
 http://server_ip_address/info.php
 ```
@@ -68,7 +68,7 @@ $ sudo apt-get install phpmyadmin
 ```check
 http://server_ip_address/phpmyadmin
 ```
-* #### Or
+#### Or
 ```check
 http://localhost/phpmyadmin
 ```
