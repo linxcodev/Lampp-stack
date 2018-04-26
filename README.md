@@ -1,7 +1,7 @@
 # Install LAMP Stack
 
 ## 1. Install Apache
-----
+
 > ```install
 > $ sudo apt-get install apache2
 > ```
@@ -31,7 +31,7 @@
 > ```
 
 ## 2. Install MySQL
-----
+
 > ```install
 > $ sudo apt-get install mysql-server
 > ```
@@ -49,7 +49,7 @@
 > ```
 
 ## 3. Install PHP
-----
+
 > ```install
 > $ sudo add-apt-repository ppa:ondrej/php
 > $ sudo apt-get update
@@ -89,8 +89,7 @@
 > http://server_ip_address/info.php
 > ```
 
-### 4. Install PhpMyAdmin
-----
+## 4. Install PhpMyAdmin
 > ```install
 > $ sudo apt-get install phpmyadmin
 >```
