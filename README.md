@@ -48,13 +48,18 @@
 > $ sudo service mysql restart
 > ```
 
+* ### Login MySQL
+
+> ```check
+> $ mysql -u root -p
+> ```
+
 ## 3. Install PHP
 
 > ```install
 > $ sudo add-apt-repository ppa:ondrej/php
 > $ sudo apt-get update
-> $ sudo apt-get install php
-> $ apt-get install php-pear php7.0-dev php7.0-zip php7.0-curl php7.0-gd php7.0-mysql php7.0-mcrypt php7.0-xml libapache2-mod-php7.0
+> $ sudo apt-get install php-pear php7.0-dev php7.0-zip php7.0-curl php7.0-gd php7.0-mysql php7.0-mcrypt php7.0-xml libapache2-mod-php7.0
 > ```
 
 * ### Search module installed in php
